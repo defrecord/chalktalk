@@ -1,45 +1,68 @@
-# Chalktalk
+# chalktalk
 
-![](readme_images/Pendulum.gif)
+## Overview
+Part of the DEFRecord 2025 Engineering Strategy, this repository contributes to our development ecosystem.
 
-**Chalktalk** is a digital presentation and communication language 
-in development at [New York University's Future Reality Lab](https://frl.nyu.edu/).
-Using a blackboard-like interface, it allows a presenter to create and interact
-with animated digital sketches in order to demonstrate ideas and concepts in the context
-of a live presentation or conversation.
+## Strategic Alignment
+This project aligns with our 2025 strategy through:
+- Tool Integration
+- System Compatibility
+- Performance Standards
+- Documentation Requirements
 
-Sketches can display animations and graphics in 2D and 3D…
+## Features
+- Core functionality
+- Integration capabilities
+- Documentation
+- Testing framework
 
-![](readme_images/Rotation.gif)
+## Getting Started
+### Prerequisites
+- Python 3.8+
+- Git
+- Docker (optional)
 
-…link together to demonstrate complex logical connections and behaviors…
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/defrecord/chalktalk.git
+   cd chalktalk
+   ```
 
-![](readme_images/3DGraphics.gif)
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-…and even be coded live from within Chalktalk itself.
+3. Configure environment:
+   ```bash
+   cp .env.example .env
+   # Edit .env with your settings
+   ```
 
-![](readme_images/LiveCoding.gif)
+4. Run tests:
+   ```bash
+   python -m pytest
+   ```
 
-A growing library of sketches--from creatures to math and physics objects--is available,
-and Chalktalk continues to evolve.
+## Integration
+This project integrates with the DEFRecord ecosystem:
+- AI Infrastructure: Compatible with AI infrastructure
+- Tool Chain: Integrates with tool chain
+- Research Framework: Supports research framework
 
-## Installation and Usage
+## Contributing
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) and review our [Code of Conduct](CODE_OF_CONDUCT.md).
 
-[Installation instructions can be found in the wiki](https://github.com/kenperlin/chalktalk/wiki/Installation-and-Running).
+## Documentation
+- [API Documentation](docs/API.md)
+- [Architecture Overview](docs/ARCHITECTURE.md)
+- [Development Guide](docs/DEVELOPMENT.md)
 
-More complete documentation on the usage of the system can be found there as well, but is a work in progress.
+## Community
+- [GitHub Discussions](https://github.com/defrecord/chalktalk/discussions)
+- [Issue Tracker](https://github.com/defrecord/chalktalk/issues)
+- [Project Board](https://github.com/orgs/defrecord/projects?query=is%3Aopen)
 
-## Creating and Contributing
-
-Contributions to the core codebase and sketch library are welcome.
-
-To create your own sketch, create a new .js file (nameOfMySketch.js) or copy a template (from sketch_templates) into the sketches directory. 
-
-In your file, change the value of `this.label` and begin customizing your new sketch.
-
-[Further information on sketch creation can be found in the wiki](https://github.com/kenperlin/chalktalk/wiki/Creating-a-Sketch).
-
-## License 
-MIT
-
-
+## License
+This project is licensed under the terms of the MIT license. See [LICENSE](LICENSE) for more details.
